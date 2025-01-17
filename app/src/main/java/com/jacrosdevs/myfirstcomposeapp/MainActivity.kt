@@ -11,7 +11,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.jacrosdevs.myfirstcomposeapp.loging.Greeting
-import com.jacrosdevs.myfirstcomposeapp.state.MyState
 import com.jacrosdevs.myfirstcomposeapp.ui.theme.MyFirstComposeAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +21,7 @@ class MainActivity : ComponentActivity() {
             MyFirstComposeAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
-                    MyState(Modifier.padding(innerPadding))
+                    MyTexts(Modifier.padding(innerPadding))
                 }
             }
         }
@@ -30,7 +29,7 @@ class MainActivity : ComponentActivity() {
 }
 
 
-
+    
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
