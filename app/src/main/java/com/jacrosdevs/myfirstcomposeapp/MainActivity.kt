@@ -10,6 +10,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.jacrosdevs.myfirstcomposeapp.components.MyTextFieldParent
 import com.jacrosdevs.myfirstcomposeapp.loging.Greeting
 import com.jacrosdevs.myfirstcomposeapp.ui.theme.MyFirstComposeAppTheme
 
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
             MyFirstComposeAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
-                    MyTexts(Modifier.padding(innerPadding))
+                    MyTextFieldParent(Modifier.padding(innerPadding))
                 }
             }
         }
