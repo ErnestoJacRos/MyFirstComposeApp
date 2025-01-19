@@ -1,4 +1,4 @@
-# layout Basicos y configuracion de Constraint Layout con Boxes
+# layout Basicos y configuracion de Constraint Layout con Boxes Text, TextField
 
 primera modificacion para el constraint Layout es /Gradle/libs.versions.toml
 
